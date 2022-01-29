@@ -5,6 +5,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
+@Data
 public class FilmsTitle {
     private int id;
     private String nameFilm;
